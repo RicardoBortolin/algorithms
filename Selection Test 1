@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main()
+{
+    int A, B, C, D;
+    
+    printf("coloque o valorA:");
+       scanf("%d",&A);
+printf("coloque o valorB:");
+       scanf("%d",&B);
+printf("coloque o valorC:");
+       scanf("%d",&C);
+printf("coloque o valorD:");
+       scanf("%d",&D);
+
+if(B > C && D > A && B + A < C + D && C >= 1 && D >= 1 && A % 2 == 0)
+        printf("valores aceitos"); 
+                else
+        printf("valores não aceitos");        
+                
+
+
+    return 0;
+}
